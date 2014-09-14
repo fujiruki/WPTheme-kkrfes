@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+a img {
+	border-style: none;
+}
+
 body {
 	width: 100%;
 	background-color: #fec525;
@@ -135,12 +139,26 @@ div#sidebar li a span {
 
 div#contents {
 	float: left;
-	width: 640px;
-	margin: 10px 0px 0px 8px;
+	width: 630px;
+	margin: 12px 0px 0px 8px;
 	background-color: #fee397;
-	padding: 8px 5px;
+	padding: 8px 5px 10px 18px;
 }
 
 footer {
 	background-color: #333333;
+}
+
+
+
+
+/************************************************/
+#contents h1 {
+	width: 100%;
+	margin: 10px 0 0 -14px;
+	background: url('h1.png') no-repeat;
+	font-size: 19px;
+	line-height: 1.1em;
+	padding: 13px 2px 8px 30px;
+	text-indent: -0.8em;
 }
